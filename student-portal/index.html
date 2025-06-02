@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Data</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student List</h1>
+        <div class="toggle-container">
+            <label>
+                <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()" />
+                Dark Mode
+            </label>
+        </div>
+
+
+        <input type="text" id="searchInput" placeholder="Search by name or email" />
+        <button onclick="searchStudent()">Search</button>
+
+        <input type="number" id="schoolIdInput" placeholder="Enter school id" />
+        <button onclick="assignRollNumber()">Assign Roll Number</button>
+
+        <input type="email" id="updateEmail" placeholder="Enter student email to update" />
+        <input type="text" id="newContact" placeholder="Enter new contact" />
+        <button onclick="updateStudent()">Update Contact</button>
+
+        <input type="email" id="deleteEmail" placeholder="Enter student email to delete" />
+        <button onclick="deleteStudent()">Delete Student</button>
+
+        <ul id="studentList"></ul>
+    </div>
+
+    <script src="json.js"></script>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
