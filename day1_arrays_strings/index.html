@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Array Operations & About Me</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h2>About Me</h2>
+    <p id="paragraph">
+      My name is Tushar Saini, and I am currently pursuing a Bachelor of Technology degree at NSUT. Over the past few
+      years, I have realized the importance of consistent learning and self-discipline in shaping a successful career
+      in technology. While I feel I have lost some valuable time earlier in my college life, I am now fully committed
+      to making the most out of the remaining years by focusing deeply on backend development and related modern web
+      technologies.
+
+      I have a strong passion for programming, especially JavaScript and Node.js, and I am continuously working on
+      real projects to sharpen my skills. I believe hands-on experience is the best teacher, and I am dedicated to
+      building secure, scalable, and efficient applications. My learning approach combines structured plans with
+      practical experimentation, helping me not only understand concepts but also apply them effectively.
+
+      Sharing my journey on platforms like LinkedIn and Instagram is an important part of my growth. It helps me stay
+      accountable, connect with like-minded developers, and contribute to the community by sharing insights and
+      progress. I strive to create content that is educational, relatable, and sometimes even fun, as I believe
+      learning should never be boring.
+
+      Beyond coding, I am focused on personal growth — building confidence, time management skills, and a strong work
+      ethic. I understand the value of perseverance, and I am motivated by the vision of a successful career where I
+      can solve real-world problems and contribute meaningfully to the tech industry.
+
+      Looking ahead, I am excited about exploring advanced backend concepts such as authentication with JWT, efficient
+      data management with Redis, and deployment strategies with tools like Docker and NGINX. My goal is to become a
+      highly skilled backend developer, capable of building robust systems that power modern applications.
+
+      Every day is a new opportunity to learn and improve, and I am committed to making these years count. Through
+      discipline, continuous effort, and a passion for technology, I am confident I will reach my goals and create a
+      fulfilling professional journey.
+    </p>
+
+    <h2>Array Operations</h2>
+
+    <div class="form-group">
+      <button onclick="convertToArray()">Convert to Array</button>
+    </div>
+
+    <div class="form-group">
+      <input type="number" id="indexInput" placeholder="Enter index to remove" />
+      <button onclick="removeAtIndex()">Remove Word at Index</button>
+    </div>
+
+    <div class="form-group">
+      <input type="number" id="insertIndex" placeholder="Enter index to insert" />
+      <input type="text" id="wordsToInsert" placeholder="Words to insert (comma separated)" />
+      <button onclick="insertWords()">Insert Words</button>
+    </div>
+
+    <h3>Result:</h3>
+    <p id="output"></p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>
+

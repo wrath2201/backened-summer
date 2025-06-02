@@ -1,77 +1,53 @@
-#60 days of coding
-# 🧠 Paragraph Manipulator
+# 💻 60-Day Backend Development Challenge
 
-This is a basic frontend project I built as part of my **60 Days of Backend Journey**. It focuses on string and array manipulation in JavaScript, starting from a simple HTML structure.
-
----
-
-## 📂 Project Structure
-
-📁 01_practice
-├── index.html
-├── style.css
-├── script.js (Day 0 - show full/less text, word count, replace text)
-└── script2.js (Day 1 - convert paragraph to array, remove/insert at index)
-
+Welcome to my **60-day journey to becoming a skilled backend developer**! This challenge documents my daily progress, mini-projects, and learnings—starting from the basics (like strings, arrays, and JS logic) to advanced backend topics such as authentication, databases, caching, reverse proxies, deployment, and more.
 
 ---
 
-## ✨ Features
+## 🛠️ Technologies Covered
 
-### ✅ Day 0
-- Show full or short paragraph (first 120 chars).
-- Count number of words.
-- Replace a word with another.
+Throughout this challenge, I will explore and build with:
 
-### ✅ Day 1
-- Convert a paragraph into an array of words.
-- Clean up unwanted commas and spaces.
-- Remove a word at a specific index.
-- Add multiple words at a specific index (in progress).
-- Input-based manipulation via buttons.
-
----
-
-
-
-## 🛠️ Technologies Used
-
-- HTML
-- JavaScript (vanilla)
+- **JavaScript** (Core & ES6+)
+- **Node.js**
+- **Express.js**
+- **MongoDB & Mongoose**
+- **Redis**
+- **Authentication (JWT, OAuth)**
+- **API Design & REST**
+- **Rate Limiting & Security**
+- **NGINX**
+- **Docker**
+- **Testing & Debugging**
+- **Real Projects + Deployment**
 
 ---
 
-## 🚀 How to Use
+## 📁 Folder Structure
 
-1. Clone the repo or download the ZIP.
-2. Open `index.html` in your browser.
-3. Play with the buttons and input fields to manipulate the paragraph dynamically.
+Each day has its own folder with its own `README.md`, code files, and styling.
 
----
+| Day   | Topic | Link |
+|-------|-------|------|
+| Day 0 | String Operations (Show More/Less, Replace, Count) |
 
-## 📌 What I Learned
+| Day 1 | Convert String to Array + Basic Array Operations | 
 
-- DOM manipulation using `getElementById`
-- Reading and updating `.textContent`
-- Splitting strings into arrays using `.split()`
-- Filtering and cleaning arrays
-- `splice()` for removing and inserting elements
-- JSON.stringify for pretty-printing
+| Day 2 | Placeholder for Next Topic (Array Manipulation, etc.) | 
+
+| ... | *(To be updated daily)* | |
 
 ---
 
-## 📅 Part of My 60-Day Journey
+## 🎯 My Goals
 
-I'm posting daily updates on [LinkedIn](https://www.linkedin.com/in/tushar-saini-9943b9288/) as part of my mission to become a **Backend Developer** from scratch.
-
-Follow my progress or connect here:  
-🔗 [Tushar Saini on LinkedIn](https://www.linkedin.com/in/tushar-saini-9943b9288/)
+- Build a **strong foundation** in backend development
+- Learn **by doing**, not just watching
+- Gain confidence with **real-world backend tools**
+- Create a solid **public portfolio** of mini-projects
+- Share my progress **daily** on LinkedIn & Instagram
 
 ---
 
 
-## ⭐ Support
-
-If you like this project, feel free to star the repo and follow my journey!  
-Let’s grow and build together 💪
 
