@@ -33,7 +33,7 @@ Each day has its own folder with its own `README.md`, code files, and explanatio
 | Day 1 | Convert String to Array + Basic Array Operations          | `./day1_arrays_strings/`           |
 | Day 2 | Placeholder for Next Topic (Array Manipulation, etc.)     | `./day2-student-portal/`           |
 | Day 3 | Login API using Express.js + Tested with Postman          | `./day3_nodedemo/`           |
-
+| Day 4 | Update Student by Email using Express.js + Postman Test 
 ---
 
 ## 🎯 My Goals
