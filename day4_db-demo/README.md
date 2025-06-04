@@ -1,3 +1,6 @@
+// before reading this , in the folder dbconnection -> mongo.js , there is a code line [const db_url=`mongodb+srv://<user_id>:<password>.iadvoaw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`]  
+make your account on Atlas and use your user_id and password and paste them in this line at the place mentioned , otherwise the project  will not work
+
 
 ```markdown
 # 📚 Student Management API (Node.js + Express + MongoDB)
