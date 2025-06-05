@@ -27,14 +27,14 @@ Throughout this challenge, I will explore and build with:
 
 Each day has its own folder with its own `README.md`, code files, and explanation.
 
-| Day   | Topic                                                     | Link                |
-|-------|-----------------------------------------------------------|---------------------|
-| Day 0 | String Operations (Show More/Less, Replace, Count)        | `./day0_basics/`           |
-| Day 1 | Convert String to Array + Basic Array Operations          | `./day1_arrays_strings/`           |
-| Day 2 | Placeholder for Next Topic (Array Manipulation, etc.)     | `./day2-student-portal/`           |
-| Day 3 | Login API using Express.js + Tested with Postman          | `./day3_nodedemo/`           |
-| Day 4 | Update Student by Email using Express.js + Postman Test 
----
+| Day   | Topic                                                     |                       
+|-------|-----------------------------------------------------------|-----------------------------|
+| Day 0 | String Operations (Show More/Less, Replace, Count)                   
+| Day 1 | Convert String to Array + Basic Array Operations         
+| Day 2 | Placeholder for Next Topic (Array Manipulation, etc.)    
+| Day 3 | Login API using Express.js + Tested with Postman         
+| Day 4 | Update Student by Email using Express.js + Postman Test   
+| Day 5 | Modularizing Code – Moved Logic to Controllers Folder     
 
 ## 🎯 My Goals
 
