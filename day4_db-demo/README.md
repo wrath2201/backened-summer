@@ -91,9 +91,9 @@ POST /student
 
 ```json
 {
-  "firstName": "Tushar",
-  "lastName": "Saini",
-  "email": "tushar@example.com",
+  "firstName": "abc",
+  "lastName": "xyz",
+  "email": "lmn@example.com",
   "password": "123456",
   "phone": 9876543210,
   "age": 20,
@@ -116,7 +116,7 @@ POST /login
 
 ```json
 {
-  "email": "tushar@example.com",
+  "email": "lmn@example.com",
   "password": "123456"
 }
 ```
